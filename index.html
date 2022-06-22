@@ -1,0 +1,180 @@
+<!DOCTYPE html> <!-- git add index.html DeliceSens.html NoteEnchantee.html PaletteGout.html Francaise.html -->
+<!-- git push -u origin main -->
+<!--Documents/Openclassroom/P3_CSS/ohmyfood-->
+ <!--white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;-->
+<html>
+
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <script src="https://kit.fontawesome.com/9f141da883.js" crossorigin="anonymous"></script>
+        <script
+        src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width" />
+        <title>OhMyFood</title>
+    </head>
+
+    <body>
+
+            <div class="spinner">
+                <div class="spinner__border">
+                <div class="spinner__center"></div>
+                </div>
+            </div>
+
+            <header class="header">
+                <h1 class="header__logo">ohmyfood</h1>
+                <i class="fas fa-magnifying-glass header__picto"></i>
+            </header> 
+
+            
+
+            <div class="searchbar">
+                <i class="fas fa-location-dot searchbar__picto"></i>
+                <input class="searchbar__text"  type="text" name="search" placeholder="Paris, Belleville" >
+            </div>
+
+        <div class="milieux">
+            <section class="explo">
+  
+                    <h1 class="explo__titre">Réservez le menu qui vous convient</h1>
+                    <h3 class="explo__soustitre">Découvrez des restaurants d'exception, sélectionnés par nos soins</h3>
+                    <button class="btn explo__btn" type="submit" value="Explorer nos restaurants">Explorer nos restaurants</button>
+      
+            </section>
+
+            <nav class="liste">
+                <h1 class="liste__titre ">Fonctionnement</h1>
+                    <div class="liste__conteneur">
+                        <div class="liste__block">
+                            <div class="puce">
+                                <i class="fas fa-1 fa-inverse fa-2xs puce_nbr"></i>
+                            </div>
+                            <i class="fas fa-mobile-screen-button liste__picto"></i>
+                            Choisissez un restaurant </div>
+
+                        <div class="liste__block">
+                            <div class="puce">
+                                <i class=" fas fa-2 fa-inverse fa-2xs puce_nbr"></i>
+                            </div>
+                            <i class="fas fa-list-ul liste__picto"></i> 
+                            Composez votre menu </div>
+
+                        <div class="liste__block">
+                            <div class="puce">
+                                <i class="fas fa-3 fa-inverse fa-2xs puce_nbr"></i>
+                            </div>
+                            <i class="fas fa-store liste__picto"></i> 
+                            Dégustez au restaurant </div>
+                    </div>
+            </nav>
+        </div>
+
+            <section class="resto">
+                <h1 class="resto__titre">Restaurants</h1>
+                <section class="resto__liste">
+                    <a href="PaletteGout.html" class="resto__carte">
+                        
+                            <img src="images/restaurants/paletteGout.jpg" class="resto__img"  alt="La palette du goût">
+                        <div class="bandeau">
+                            <h4 class="bandeau_titre">Nouveau</h4>
+                        </div>
+                        <div class="resto__desc">
+                            <div class="resto__desc-text">
+                                <h2 class="resto__desc-titre">La palette du goût</h2>
+                                <span>
+                                    Ménilmontant
+                                </span>
+                            </div>
+                                <span class="fa-stack fa-2x resto__stackpicto">
+                                    <i class="fa-regular fa-heart fa-stack-1x resto__picto" ></i>
+                                    <i class="fas fa-heart fa-stack-1x resto__picto2"></i>
+                                </span>
+                        </div>
+                    </a>
+
+                    <a href="NoteEnchantee.html" class="resto__carte">
+                        
+                        <img src="images/restaurants/NoteEnchan.jpg" class="resto__img"  alt="La note enchantée">
+                        <div class="bandeau">
+                            <h4 class="bandeau_titre">Nouveau</h4>
+                        </div>
+                    <div class="resto__desc">
+                        <div class="resto__desc-text">
+                            <h2 class="resto__desc-titre">La note enchantée</h2>
+                            <span>
+                                Charonne
+                            </span>
+                        </div>
+                        
+                        <span class="fa-stack fa-2x resto__stackpicto">
+                            <i class="fa-regular fa-heart fa-stack-1x resto__picto" ></i>
+                            <i class="fas fa-heart fa-stack-1x resto__picto2"></i>
+                        </span>
+                        
+                    </div>
+                </a>
+
+                    <a href="Francaise.html" class="resto__carte">
+                            
+                        <img src="images/restaurants/Francaise.jpg" class="resto__img"  alt="A la française">
+                    
+                    <div class="resto__desc">
+                        <div class="resto__desc-text">
+                            <h2 class="resto__desc-titre">A la française</h2>
+                            <span>
+                                Cité Rouge
+                            </span>
+                        </div>
+                        
+                        <span class="fa-stack fa-2x resto__stackpicto">
+                            <i class="fa-regular fa-heart fa-stack-1x resto__picto" ></i>
+                            <i class="fas fa-heart fa-stack-1x resto__picto2"></i>
+                        </span>
+                        
+                    </div>
+                </a>
+
+                    <a href="DeliceSens.html" class="resto__carte">
+                                
+                        <img src="images/restaurants/DeliceSens.jpg" class="resto__img"  alt="Délice des sens">
+                    
+                    <div class="resto__desc">
+                        <div class="resto__desc-text">
+                            <h2 class="resto__desc-titre">Le délice des sens</h2>
+                            <span>
+                                Folie-Méricourt
+                            </span>
+                        </div>
+
+                        <span class="fa-stack fa-2x resto__stackpicto">
+                            <i class="fa-regular fa-heart fa-stack-1x resto__picto" ></i>
+                            <i class="fas fa-heart fa-stack-1x resto__picto2"></i>
+                        </span>
+
+                    </div>
+                </a>
+
+                </section>
+
+            </section>
+
+            
+
+            <footer class="footer">
+                <h1 class="footer__logo">ohmyfood</h1>
+                <a href="#" class="footer__liens"><i class="fas fa-utensils fa-sm footer__picto"></i>  Proposer un restaurant</a>
+                <a href="#" class="footer__liens"><i class="fas fa-handshake-angle fa-sm footer__picto"></i>  Devenir partenaire</a>
+                <a href="#" class="footer__liens">Mentions légales</a>
+                <a href="mailto:ohmyfood@contact.com" class="footer__liens">Contact</a>
+            </footer>
+
+            
+               
+
+    </body>
+</html>

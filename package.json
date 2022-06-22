@@ -1,0 +1,19 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "sass": "sass --watch ./Sass/sass.scss:./css/style.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dakkarus/OC_P03_Ohmyfood.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dakkarus/OC_P03_Ohmyfood/issues"
+  },
+  "homepage": "https://github.com/Dakkarus/OC_P03_Ohmyfood#readme"
+}
